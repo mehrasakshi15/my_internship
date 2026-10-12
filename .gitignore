@@ -1,0 +1,33 @@
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large model files & weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+show_and_tell_pytorch/models/
+
+# Large dataset annotations and archives
+*.zip
+*.tar
+*.tar.gz
+*.gz
+coco128/annotations/*.json
+coco128/annotations/*.zip
+coco128/*.zip
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
